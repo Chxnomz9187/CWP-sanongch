@@ -1,0 +1,6 @@
+import sys
+if len(sys.argv) > 1:
+    result = sys.argv[1]
+    print(result.upper())
+else:
+    print("None")
